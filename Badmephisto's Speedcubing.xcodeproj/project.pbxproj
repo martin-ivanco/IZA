@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B621A342063D7A4003DF726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A332063D7A4003DF726 /* AppDelegate.swift */; };
+		5B621A362063D7A4003DF726 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A352063D7A4003DF726 /* ViewController.swift */; };
+		5B621A392063D7A4003DF726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B621A372063D7A4003DF726 /* Main.storyboard */; };
+		5B621A3B2063D7A4003DF726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B621A3A2063D7A4003DF726 /* Assets.xcassets */; };
+		5B621A3E2063D7A4003DF726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B621A3C2063D7A4003DF726 /* LaunchScreen.storyboard */; };
+		5B621A492063D7A4003DF726 /* Badmephisto_s_SpeedcubingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A482063D7A4003DF726 /* Badmephisto_s_SpeedcubingTests.swift */; };
+		5B621A542063D7A4003DF726 /* Badmephisto_s_SpeedcubingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A532063D7A4003DF726 /* Badmephisto_s_SpeedcubingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B621A452063D7A4003DF726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B621A282063D7A4003DF726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B621A2F2063D7A4003DF726;
+			remoteInfo = "Badmephisto's Speedcubing";
+		};
+		5B621A502063D7A4003DF726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B621A282063D7A4003DF726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B621A2F2063D7A4003DF726;
+			remoteInfo = "Badmephisto's Speedcubing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B621A302063D7A4003DF726 /* Badmephisto's Speedcubing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Badmephisto's Speedcubing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B621A332063D7A4003DF726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B621A352063D7A4003DF726 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B621A382063D7A4003DF726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B621A3A2063D7A4003DF726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B621A3D2063D7A4003DF726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B621A3F2063D7A4003DF726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B621A442063D7A4003DF726 /* Badmephisto's SpeedcubingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Badmephisto's SpeedcubingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B621A482063D7A4003DF726 /* Badmephisto_s_SpeedcubingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badmephisto_s_SpeedcubingTests.swift; sourceTree = "<group>"; };
+		5B621A4A2063D7A4003DF726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B621A4F2063D7A4003DF726 /* Badmephisto's SpeedcubingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Badmephisto's SpeedcubingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B621A532063D7A4003DF726 /* Badmephisto_s_SpeedcubingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badmephisto_s_SpeedcubingUITests.swift; sourceTree = "<group>"; };
+		5B621A552063D7A4003DF726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B621A2D2063D7A4003DF726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B621A412063D7A4003DF726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B621A4C2063D7A4003DF726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B621A272063D7A4003DF726 = {
+			isa = PBXGroup;
+			children = (
+				5B621A322063D7A4003DF726 /* Badmephisto's Speedcubing */,
+				5B621A472063D7A4003DF726 /* Badmephisto's SpeedcubingTests */,
+				5B621A522063D7A4003DF726 /* Badmephisto's SpeedcubingUITests */,
+				5B621A312063D7A4003DF726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B621A312063D7A4003DF726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B621A302063D7A4003DF726 /* Badmephisto's Speedcubing.app */,
+				5B621A442063D7A4003DF726 /* Badmephisto's SpeedcubingTests.xctest */,
+				5B621A4F2063D7A4003DF726 /* Badmephisto's SpeedcubingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B621A322063D7A4003DF726 /* Badmephisto's Speedcubing */ = {
+			isa = PBXGroup;
+			children = (
+				5B621A332063D7A4003DF726 /* AppDelegate.swift */,
+				5B621A352063D7A4003DF726 /* ViewController.swift */,
+				5B621A372063D7A4003DF726 /* Main.storyboard */,
+				5B621A3A2063D7A4003DF726 /* Assets.xcassets */,
+				5B621A3C2063D7A4003DF726 /* LaunchScreen.storyboard */,
+				5B621A3F2063D7A4003DF726 /* Info.plist */,
+			);
+			path = "Badmephisto's Speedcubing";
+			sourceTree = "<group>";
+		};
+		5B621A472063D7A4003DF726 /* Badmephisto's SpeedcubingTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B621A482063D7A4003DF726 /* Badmephisto_s_SpeedcubingTests.swift */,
+				5B621A4A2063D7A4003DF726 /* Info.plist */,
+			);
+			path = "Badmephisto's SpeedcubingTests";
+			sourceTree = "<group>";
+		};
+		5B621A522063D7A4003DF726 /* Badmephisto's SpeedcubingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B621A532063D7A4003DF726 /* Badmephisto_s_SpeedcubingUITests.swift */,
+				5B621A552063D7A4003DF726 /* Info.plist */,
+			);
+			path = "Badmephisto's SpeedcubingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B621A2F2063D7A4003DF726 /* Badmephisto's Speedcubing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B621A582063D7A4003DF726 /* Build configuration list for PBXNativeTarget "Badmephisto's Speedcubing" */;
+			buildPhases = (
+				5B621A2C2063D7A4003DF726 /* Sources */,
+				5B621A2D2063D7A4003DF726 /* Frameworks */,
+				5B621A2E2063D7A4003DF726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Badmephisto's Speedcubing";
+			productName = "Badmephisto's Speedcubing";
+			productReference = 5B621A302063D7A4003DF726 /* Badmephisto's Speedcubing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B621A432063D7A4003DF726 /* Badmephisto's SpeedcubingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B621A5B2063D7A4003DF726 /* Build configuration list for PBXNativeTarget "Badmephisto's SpeedcubingTests" */;
+			buildPhases = (
+				5B621A402063D7A4003DF726 /* Sources */,
+				5B621A412063D7A4003DF726 /* Frameworks */,
+				5B621A422063D7A4003DF726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B621A462063D7A4003DF726 /* PBXTargetDependency */,
+			);
+			name = "Badmephisto's SpeedcubingTests";
+			productName = "Badmephisto's SpeedcubingTests";
+			productReference = 5B621A442063D7A4003DF726 /* Badmephisto's SpeedcubingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B621A4E2063D7A4003DF726 /* Badmephisto's SpeedcubingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B621A5E2063D7A4003DF726 /* Build configuration list for PBXNativeTarget "Badmephisto's SpeedcubingUITests" */;
+			buildPhases = (
+				5B621A4B2063D7A4003DF726 /* Sources */,
+				5B621A4C2063D7A4003DF726 /* Frameworks */,
+				5B621A4D2063D7A4003DF726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B621A512063D7A4003DF726 /* PBXTargetDependency */,
+			);
+			name = "Badmephisto's SpeedcubingUITests";
+			productName = "Badmephisto's SpeedcubingUITests";
+			productReference = 5B621A4F2063D7A4003DF726 /* Badmephisto's SpeedcubingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B621A282063D7A4003DF726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = martinivanco;
+				TargetAttributes = {
+					5B621A2F2063D7A4003DF726 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5B621A432063D7A4003DF726 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B621A2F2063D7A4003DF726;
+					};
+					5B621A4E2063D7A4003DF726 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B621A2F2063D7A4003DF726;
+					};
+				};
+			};
+			buildConfigurationList = 5B621A2B2063D7A4003DF726 /* Build configuration list for PBXProject "Badmephisto's Speedcubing" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B621A272063D7A4003DF726;
+			productRefGroup = 5B621A312063D7A4003DF726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B621A2F2063D7A4003DF726 /* Badmephisto's Speedcubing */,
+				5B621A432063D7A4003DF726 /* Badmephisto's SpeedcubingTests */,
+				5B621A4E2063D7A4003DF726 /* Badmephisto's SpeedcubingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B621A2E2063D7A4003DF726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B621A3E2063D7A4003DF726 /* LaunchScreen.storyboard in Resources */,
+				5B621A3B2063D7A4003DF726 /* Assets.xcassets in Resources */,
+				5B621A392063D7A4003DF726 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B621A422063D7A4003DF726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B621A4D2063D7A4003DF726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B621A2C2063D7A4003DF726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B621A362063D7A4003DF726 /* ViewController.swift in Sources */,
+				5B621A342063D7A4003DF726 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B621A402063D7A4003DF726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B621A492063D7A4003DF726 /* Badmephisto_s_SpeedcubingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B621A4B2063D7A4003DF726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B621A542063D7A4003DF726 /* Badmephisto_s_SpeedcubingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B621A462063D7A4003DF726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B621A2F2063D7A4003DF726 /* Badmephisto's Speedcubing */;
+			targetProxy = 5B621A452063D7A4003DF726 /* PBXContainerItemProxy */;
+		};
+		5B621A512063D7A4003DF726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B621A2F2063D7A4003DF726 /* Badmephisto's Speedcubing */;
+			targetProxy = 5B621A502063D7A4003DF726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B621A372063D7A4003DF726 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B621A382063D7A4003DF726 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B621A3C2063D7A4003DF726 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B621A3D2063D7A4003DF726 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B621A562063D7A4003DF726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B621A572063D7A4003DF726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B621A592063D7A4003DF726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Badmephisto's Speedcubing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinivanco.Badmephisto-s-Speedcubing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B621A5A2063D7A4003DF726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Badmephisto's Speedcubing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinivanco.Badmephisto-s-Speedcubing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B621A5C2063D7A4003DF726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Badmephisto's SpeedcubingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinivanco.Badmephisto-s-SpeedcubingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badmephisto's Speedcubing.app/Badmephisto's Speedcubing";
+			};
+			name = Debug;
+		};
+		5B621A5D2063D7A4003DF726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Badmephisto's SpeedcubingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinivanco.Badmephisto-s-SpeedcubingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badmephisto's Speedcubing.app/Badmephisto's Speedcubing";
+			};
+			name = Release;
+		};
+		5B621A5F2063D7A4003DF726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Badmephisto's SpeedcubingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinivanco.Badmephisto-s-SpeedcubingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Badmephisto's Speedcubing";
+			};
+			name = Debug;
+		};
+		5B621A602063D7A4003DF726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Badmephisto's SpeedcubingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinivanco.Badmephisto-s-SpeedcubingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Badmephisto's Speedcubing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B621A2B2063D7A4003DF726 /* Build configuration list for PBXProject "Badmephisto's Speedcubing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B621A562063D7A4003DF726 /* Debug */,
+				5B621A572063D7A4003DF726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B621A582063D7A4003DF726 /* Build configuration list for PBXNativeTarget "Badmephisto's Speedcubing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B621A592063D7A4003DF726 /* Debug */,
+				5B621A5A2063D7A4003DF726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B621A5B2063D7A4003DF726 /* Build configuration list for PBXNativeTarget "Badmephisto's SpeedcubingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B621A5C2063D7A4003DF726 /* Debug */,
+				5B621A5D2063D7A4003DF726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B621A5E2063D7A4003DF726 /* Build configuration list for PBXNativeTarget "Badmephisto's SpeedcubingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B621A5F2063D7A4003DF726 /* Debug */,
+				5B621A602063D7A4003DF726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B621A282063D7A4003DF726 /* Project object */;
+}

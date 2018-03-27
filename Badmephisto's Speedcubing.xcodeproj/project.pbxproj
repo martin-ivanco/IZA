@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B20F86B206A7DEB0007542A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B20F86A206A7DEB0007542A /* DetailViewController.swift */; };
 		5B621A342063D7A4003DF726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A332063D7A4003DF726 /* AppDelegate.swift */; };
-		5B621A362063D7A4003DF726 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A352063D7A4003DF726 /* ViewController.swift */; };
 		5B621A392063D7A4003DF726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B621A372063D7A4003DF726 /* Main.storyboard */; };
 		5B621A3B2063D7A4003DF726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B621A3A2063D7A4003DF726 /* Assets.xcassets */; };
 		5B621A3E2063D7A4003DF726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B621A3C2063D7A4003DF726 /* LaunchScreen.storyboard */; };
 		5B621A492063D7A4003DF726 /* Badmephisto_s_SpeedcubingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A482063D7A4003DF726 /* Badmephisto_s_SpeedcubingTests.swift */; };
 		5B621A542063D7A4003DF726 /* Badmephisto_s_SpeedcubingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A532063D7A4003DF726 /* Badmephisto_s_SpeedcubingUITests.swift */; };
+		5B621A622063DD3B003DF726 /* OllTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A612063DD3B003DF726 /* OllTableViewCell.swift */; };
+		5B621A642063DE54003DF726 /* OllTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A632063DE54003DF726 /* OllTableViewController.swift */; };
+		5B621A662063E9CE003DF726 /* PllTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A652063E9CE003DF726 /* PllTableViewController.swift */; };
+		5B621A682063E9E2003DF726 /* PllTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A672063E9E2003DF726 /* PllTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B20F86A206A7DEB0007542A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5B621A302063D7A4003DF726 /* Badmephisto's Speedcubing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Badmephisto's Speedcubing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B621A332063D7A4003DF726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B621A352063D7A4003DF726 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B621A382063D7A4003DF726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B621A3A2063D7A4003DF726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B621A3D2063D7A4003DF726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		5B621A4F2063D7A4003DF726 /* Badmephisto's SpeedcubingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Badmephisto's SpeedcubingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B621A532063D7A4003DF726 /* Badmephisto_s_SpeedcubingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badmephisto_s_SpeedcubingUITests.swift; sourceTree = "<group>"; };
 		5B621A552063D7A4003DF726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B621A612063DD3B003DF726 /* OllTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllTableViewCell.swift; sourceTree = "<group>"; };
+		5B621A632063DE54003DF726 /* OllTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllTableViewController.swift; sourceTree = "<group>"; };
+		5B621A652063E9CE003DF726 /* PllTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PllTableViewController.swift; sourceTree = "<group>"; };
+		5B621A672063E9E2003DF726 /* PllTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PllTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 		5B621A322063D7A4003DF726 /* Badmephisto's Speedcubing */ = {
 			isa = PBXGroup;
 			children = (
+				5B621A652063E9CE003DF726 /* PllTableViewController.swift */,
+				5B621A672063E9E2003DF726 /* PllTableViewCell.swift */,
 				5B621A332063D7A4003DF726 /* AppDelegate.swift */,
-				5B621A352063D7A4003DF726 /* ViewController.swift */,
 				5B621A372063D7A4003DF726 /* Main.storyboard */,
+				5B20F86A206A7DEB0007542A /* DetailViewController.swift */,
+				5B621A632063DE54003DF726 /* OllTableViewController.swift */,
+				5B621A612063DD3B003DF726 /* OllTableViewCell.swift */,
 				5B621A3A2063D7A4003DF726 /* Assets.xcassets */,
 				5B621A3C2063D7A4003DF726 /* LaunchScreen.storyboard */,
 				5B621A3F2063D7A4003DF726 /* Info.plist */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B621A362063D7A4003DF726 /* ViewController.swift in Sources */,
+				5B621A682063E9E2003DF726 /* PllTableViewCell.swift in Sources */,
+				5B621A642063DE54003DF726 /* OllTableViewController.swift in Sources */,
 				5B621A342063D7A4003DF726 /* AppDelegate.swift in Sources */,
+				5B20F86B206A7DEB0007542A /* DetailViewController.swift in Sources */,
+				5B621A662063E9CE003DF726 /* PllTableViewController.swift in Sources */,
+				5B621A622063DD3B003DF726 /* OllTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

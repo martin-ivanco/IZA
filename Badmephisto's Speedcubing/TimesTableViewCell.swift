@@ -1,17 +1,16 @@
 //
-//  PllTableViewCell.swift
+//  TimesTableViewCell.swift
 //  Badmephisto's Speedcubing
 //
-//  Created by Martin Ivančo on 22.3.18.
+//  Created by Martin Ivančo on 14.4.18.
 //  Copyright © 2018 martinivanco. All rights reserved.
 //
 
 import UIKit
 
-class PllTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var PllImage: UIImageView!
-    @IBOutlet weak var PllAlgorithm: UILabel!
+class TimesTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var TimeLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

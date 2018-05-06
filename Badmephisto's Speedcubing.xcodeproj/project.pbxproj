@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5B20F86B206A7DEB0007542A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B20F86A206A7DEB0007542A /* DetailViewController.swift */; };
+		5B5AA7FC208273E800FD5E0F /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5AA7FB208273E800FD5E0F /* StatisticsViewController.swift */; };
+		5B5AA7FE2082785B00FD5E0F /* TimesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5AA7FD2082785B00FD5E0F /* TimesTableViewCell.swift */; };
+		5B5E9985207BBB790077C5F0 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E9984207BBB790077C5F0 /* TimerViewController.swift */; };
 		5B621A342063D7A4003DF726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621A332063D7A4003DF726 /* AppDelegate.swift */; };
 		5B621A392063D7A4003DF726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B621A372063D7A4003DF726 /* Main.storyboard */; };
 		5B621A3B2063D7A4003DF726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B621A3A2063D7A4003DF726 /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 
 /* Begin PBXFileReference section */
 		5B20F86A206A7DEB0007542A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5B5AA7FB208273E800FD5E0F /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		5B5AA7FD2082785B00FD5E0F /* TimesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesTableViewCell.swift; sourceTree = "<group>"; };
+		5B5E9984207BBB790077C5F0 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		5B621A302063D7A4003DF726 /* Badmephisto's Speedcubing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Badmephisto's Speedcubing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B621A332063D7A4003DF726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B621A382063D7A4003DF726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -105,6 +111,9 @@
 		5B621A322063D7A4003DF726 /* Badmephisto's Speedcubing */ = {
 			isa = PBXGroup;
 			children = (
+				5B5E9984207BBB790077C5F0 /* TimerViewController.swift */,
+				5B5AA7FB208273E800FD5E0F /* StatisticsViewController.swift */,
+				5B5AA7FD2082785B00FD5E0F /* TimesTableViewCell.swift */,
 				5B621A652063E9CE003DF726 /* PllTableViewController.swift */,
 				5B621A672063E9E2003DF726 /* PllTableViewCell.swift */,
 				5B621A332063D7A4003DF726 /* AppDelegate.swift */,
@@ -200,7 +209,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = martinivanco;
 				TargetAttributes = {
 					5B621A2F2063D7A4003DF726 = {
@@ -274,6 +283,9 @@
 				5B621A682063E9E2003DF726 /* PllTableViewCell.swift in Sources */,
 				5B621A642063DE54003DF726 /* OllTableViewController.swift in Sources */,
 				5B621A342063D7A4003DF726 /* AppDelegate.swift in Sources */,
+				5B5AA7FC208273E800FD5E0F /* StatisticsViewController.swift in Sources */,
+				5B5AA7FE2082785B00FD5E0F /* TimesTableViewCell.swift in Sources */,
+				5B5E9985207BBB790077C5F0 /* TimerViewController.swift in Sources */,
 				5B20F86B206A7DEB0007542A /* DetailViewController.swift in Sources */,
 				5B621A662063E9CE003DF726 /* PllTableViewController.swift in Sources */,
 				5B621A622063DD3B003DF726 /* OllTableViewCell.swift in Sources */,
@@ -345,6 +357,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -352,6 +365,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -402,6 +416,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -409,6 +424,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
